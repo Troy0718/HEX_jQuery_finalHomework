@@ -84,6 +84,7 @@ a{
           top: 100%; /* 確保它在 nav-item 的下方展開 */
           left: -25%; /* 對齊父元素 */
           display:none;
+          z-index: 2;
           & li>a:hover{
             background-color: rgba(166, 183, 178, 0.3);
           }
